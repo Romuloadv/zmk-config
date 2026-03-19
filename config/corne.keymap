@@ -26,6 +26,10 @@
 #include <dt-bindings/zmk/mouse.h>
 
 / {
+    chosen {
+        zmk,physical-layout = &foostan_corne_5col_layout;
+    };
+
     macros {
         m0: m0 {
             compatible = "zmk,behavior-macro";
