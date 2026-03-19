@@ -30,6 +30,25 @@
         zmk,physical-layout = &foostan_corne_5col_layout;
     };
 
+    behaviors {
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <80>;
+            quick-tap-ms = <80>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+        };
+        hm_u: homerow_ralt {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <80>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
     macros {
         m0: m0 {
             compatible = "zmk,behavior-macro";
@@ -2049,8 +2068,8 @@
 
         default_layer {
             bindings = <
-                &kp Q  &kp W  &kp E  &kp R  &kp T    &kp Y  &mt RALT U  &kp I  &kp O  &kp P
-                &lt 2 A  &mt LSHFT S  &mt LALT D  &mt LCTRL F  &kp G    &kp H  &mt LCTRL J  &mt LALT K  &mt LSHFT L  &lt 2 SEMI
+                &kp Q  &kp W  &kp E  &kp R  &kp T    &kp Y  &hm_u RALT U  &kp I  &kp O  &kp P
+                &lt 2 A  &hm LSHFT S  &hm LALT D  &hm LCTRL F  &kp G    &kp H  &hm LCTRL J  &hm LALT K  &hm LSHFT L  &lt 2 SEMI
                 &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH
                           &lt 4 EQUAL  &lt 1 SPACE  &lt 3 INT1    &lt 3 RET  &lt 1 SPACE  &lt 4 MINUS
             >;
