@@ -1479,9 +1479,11 @@
             bindings = <&m65>;
         };
         combo_8 {
-            timeout-ms = <50>;
+            timeout-ms = <80>;
             key-positions = <33 34>;
             bindings = <&kp LGUI>;
+            slow-release;
+            require-prior-idle-ms = <100>;
         };
         combo_9 {
             timeout-ms = <50>;
@@ -1499,9 +1501,11 @@
             bindings = <&m55>;
         };
         combo_12 {
-            timeout-ms = <50>;
+            timeout-ms = <80>;
             key-positions = <32 31>;
             bindings = <&kp LGUI>;
+            slow-release;
+            require-prior-idle-ms = <100>;
         };
         combo_13 {
             timeout-ms = <50>;
