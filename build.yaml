@@ -1,5 +1,7 @@
+# ZMK Build Matrix - Corne Mini 3x5 Wireless
+---
 include:
-  - board: nice_nano_v2@zmk
+  - board: nice_nano
     shield: corne_left
-  - board: nice_nano_v2@zmk
+  - board: nice_nano
     shield: corne_right
