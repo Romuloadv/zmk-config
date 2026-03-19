@@ -1412,757 +1412,757 @@
 
         combo_0 {
             timeout-ms = <50>;
-            key-positions = <13 12>;
+            key-positions = <16 15>;
             bindings = <&kp TAB>;
             layers = <0>;
         };
         combo_1 {
             timeout-ms = <50>;
-            key-positions = <16 17>;
+            key-positions = <19 20>;
             bindings = <&kp ESC>;
             layers = <0>;
         };
         combo_2 {
             timeout-ms = <50>;
-            key-positions = <10 19>;
+            key-positions = <13 22>;
             bindings = <&m5>;
             layers = <0>;
         };
         combo_3 {
             timeout-ms = <50>;
-            key-positions = <27 26>;
+            key-positions = <32 31>;
             bindings = <&kp LS(MINUS)>;
             layers = <0>;
         };
         combo_4 {
             timeout-ms = <50>;
-            key-positions = <17 18>;
+            key-positions = <20 21>;
             bindings = <&m75>;
             layers = <0>;
         };
         combo_5 {
             timeout-ms = <50>;
-            key-positions = <6 5>;
+            key-positions = <7 6>;
             bindings = <&m18>;
             layers = <0>;
         };
         combo_6 {
             timeout-ms = <50>;
-            key-positions = <19 18>;
+            key-positions = <22 21>;
             bindings = <&m32>;
             layers = <0>;
         };
         combo_7 {
             timeout-ms = <50>;
-            key-positions = <10 11 12 13>;
+            key-positions = <13 14 15 16>;
             bindings = <&m65>;
             layers = <0>;
         };
         combo_8 {
             timeout-ms = <50>;
-            key-positions = <33 34>;
+            key-positions = <39 40>;
             bindings = <&kp LGUI>;
             layers = <0>;
         };
         combo_9 {
             timeout-ms = <50>;
-            key-positions = <1 10>;
+            key-positions = <2 13>;
             bindings = <&m54>;
             layers = <0>;
         };
         combo_10 {
             timeout-ms = <50>;
-            key-positions = <15 4>;
+            key-positions = <18 5>;
             bindings = <&m101>;
             layers = <0>;
         };
         combo_11 {
             timeout-ms = <50>;
-            key-positions = <33 32>;
+            key-positions = <39 38>;
             bindings = <&m55>;
             layers = <0>;
         };
         combo_12 {
             timeout-ms = <50>;
-            key-positions = <32 34>;
+            key-positions = <38 40>;
             bindings = <&kp LGUI>;
             layers = <0>;
         };
         combo_13 {
             timeout-ms = <50>;
-            key-positions = <34 24>;
+            key-positions = <40 29>;
             bindings = <&m125>;
             layers = <0>;
         };
         combo_14 {
             timeout-ms = <50>;
-            key-positions = <34 25>;
+            key-positions = <40 30>;
             bindings = <&m7>;
             layers = <0>;
         };
         combo_15 {
             timeout-ms = <50>;
-            key-positions = <4 21>;
+            key-positions = <5 26>;
             bindings = <&m63>;
             layers = <0>;
         };
         combo_16 {
             timeout-ms = <50>;
-            key-positions = <10 30>;
+            key-positions = <13 36>;
             bindings = <&m14>;
             layers = <0>;
         };
         combo_17 {
             timeout-ms = <50>;
-            key-positions = <24 11>;
+            key-positions = <29 14>;
             bindings = <&m8>;
             layers = <0>;
         };
         combo_18 {
             timeout-ms = <50>;
-            key-positions = <12 5>;
+            key-positions = <15 6>;
             bindings = <&m6>;
             layers = <0>;
         };
         combo_19 {
             timeout-ms = <50>;
-            key-positions = <13 15>;
+            key-positions = <16 18>;
             bindings = <&m17>;
             layers = <0>;
         };
         combo_20 {
             timeout-ms = <50>;
-            key-positions = <13 16>;
+            key-positions = <16 19>;
             bindings = <&m0>;
             layers = <0>;
         };
         combo_21 {
             timeout-ms = <50>;
-            key-positions = <12 17>;
+            key-positions = <15 20>;
             bindings = <&m1>;
             layers = <0>;
         };
         combo_22 {
             timeout-ms = <50>;
-            key-positions = <11 18>;
+            key-positions = <14 21>;
             bindings = <&m2>;
             layers = <0>;
         };
         combo_23 {
             timeout-ms = <50>;
-            key-positions = <22 19>;
+            key-positions = <27 22>;
             bindings = <&m50>;
             layers = <0>;
         };
         combo_24 {
             timeout-ms = <50>;
-            key-positions = <17 19>;
+            key-positions = <20 22>;
             bindings = <&m15>;
             layers = <0>;
         };
         combo_25 {
             timeout-ms = <50>;
-            key-positions = <22 23>;
+            key-positions = <27 28>;
             bindings = <&kp KP_PLUS>;
             layers = <0>;
         };
         combo_26 {
             timeout-ms = <50>;
-            key-positions = <25 17>;
+            key-positions = <30 20>;
             bindings = <&m49>;
             layers = <0>;
         };
         combo_27 {
             timeout-ms = <50>;
-            key-positions = <5 23>;
+            key-positions = <6 28>;
             bindings = <&m119>;
             layers = <0>;
         };
         combo_28 {
             timeout-ms = <50>;
-            key-positions = <12 13 11>;
+            key-positions = <15 16 14>;
             bindings = <&m16>;
             layers = <0>;
         };
         combo_29 {
             timeout-ms = <50>;
-            key-positions = <6 30>;
+            key-positions = <7 36>;
             bindings = <&m61>;
             layers = <0>;
         };
         combo_30 {
             timeout-ms = <50>;
-            key-positions = <17 7>;
+            key-positions = <20 8>;
             bindings = <&m38>;
             layers = <0>;
         };
         combo_31 {
             timeout-ms = <50>;
-            key-positions = <12 22>;
+            key-positions = <15 27>;
             bindings = <&m9>;
             layers = <0>;
         };
         combo_32 {
             timeout-ms = <50>;
-            key-positions = <17 18 16>;
+            key-positions = <20 21 19>;
             bindings = <&m10>;
             layers = <0>;
         };
         combo_33 {
             timeout-ms = <50>;
-            key-positions = <16 26>;
+            key-positions = <19 31>;
             bindings = <&m11>;
             layers = <0>;
         };
         combo_34 {
             timeout-ms = <50>;
-            key-positions = <16 15>;
+            key-positions = <19 18>;
             bindings = <&kp BSPC>;
             layers = <0>;
         };
         combo_35 {
             timeout-ms = <50>;
-            key-positions = <21 17>;
+            key-positions = <26 20>;
             bindings = <&m33>;
             layers = <0>;
         };
         combo_36 {
             timeout-ms = <50>;
-            key-positions = <5 9>;
+            key-positions = <6 10>;
             bindings = <&m12>;
             layers = <0>;
         };
         combo_37 {
             timeout-ms = <50>;
-            key-positions = <15 25>;
+            key-positions = <18 30>;
             bindings = <&m13>;
             layers = <0>;
         };
         combo_38 {
             timeout-ms = <50>;
-            key-positions = <15 11>;
+            key-positions = <18 14>;
             bindings = <&m120>;
             layers = <0>;
         };
         combo_39 {
             timeout-ms = <50>;
-            key-positions = <3 16>;
+            key-positions = <4 19>;
             bindings = <&m42>;
             layers = <0>;
         };
         combo_40 {
             timeout-ms = <50>;
-            key-positions = <8 5>;
+            key-positions = <9 6>;
             bindings = <&m82>;
             layers = <0>;
         };
         combo_41 {
             timeout-ms = <50>;
-            key-positions = <16 0>;
+            key-positions = <19 1>;
             bindings = <&m76>;
             layers = <0>;
         };
         combo_42 {
             timeout-ms = <50>;
-            key-positions = <16 3 6>;
+            key-positions = <19 4 7>;
             bindings = <&m88>;
             layers = <0>;
         };
         combo_43 {
             timeout-ms = <50>;
-            key-positions = <2 25 12>;
+            key-positions = <3 30 15>;
             bindings = <&m70>;
             layers = <0>;
         };
         combo_44 {
             timeout-ms = <50>;
-            key-positions = <21 14>;
+            key-positions = <26 17>;
             bindings = <&m86>;
             layers = <0>;
         };
         combo_45 {
             timeout-ms = <50>;
-            key-positions = <20 16>;
+            key-positions = <25 19>;
             bindings = <&m_jus>;
             layers = <0>;
         };
         combo_46 {
             timeout-ms = <50>;
-            key-positions = <23 13>;
+            key-positions = <28 16>;
             bindings = <&m_verif>;
             layers = <0>;
         };
         combo_47 {
             timeout-ms = <50>;
-            key-positions = <13 17>;
+            key-positions = <16 20>;
             bindings = <&m102>;
             layers = <0>;
         };
         combo_48 {
             timeout-ms = <50>;
-            key-positions = <10 5>;
+            key-positions = <13 6>;
             bindings = <&m48>;
             layers = <0>;
         };
         combo_49 {
             timeout-ms = <50>;
-            key-positions = <8 24 16>;
+            key-positions = <9 29 19>;
             bindings = <&m126>;
             layers = <0>;
         };
         combo_50 {
             timeout-ms = <50>;
-            key-positions = <12 1>;
+            key-positions = <15 2>;
             bindings = <&m3>;
             layers = <0>;
         };
         combo_51 {
             timeout-ms = <50>;
-            key-positions = <16 19>;
+            key-positions = <19 22>;
             bindings = <&m_outr>;
             layers = <0>;
         };
         combo_52 {
             timeout-ms = <50>;
-            key-positions = <17 11>;
+            key-positions = <20 14>;
             bindings = <&m58>;
             layers = <0>;
         };
         combo_53 {
             timeout-ms = <50>;
-            key-positions = <17 8>;
+            key-positions = <20 9>;
             bindings = <&m91>;
             layers = <0>;
         };
         combo_54 {
             timeout-ms = <50>;
-            key-positions = <15 30>;
+            key-positions = <18 36>;
             bindings = <&m90>;
             layers = <0>;
         };
         combo_55 {
             timeout-ms = <50>;
-            key-positions = <3 13>;
+            key-positions = <4 16>;
             bindings = <&m57>;
             layers = <0>;
         };
         combo_56 {
             timeout-ms = <50>;
-            key-positions = <1 11>;
+            key-positions = <2 14>;
             bindings = <&m31>;
             layers = <0>;
         };
         combo_57 {
             timeout-ms = <50>;
-            key-positions = <17 5>;
+            key-positions = <20 6>;
             bindings = <&m92>;
             layers = <0>;
         };
         combo_58 {
             timeout-ms = <50>;
-            key-positions = <16 18>;
+            key-positions = <19 21>;
             bindings = <&m96>;
             layers = <0>;
         };
         combo_59 {
             timeout-ms = <50>;
-            key-positions = <12 19>;
+            key-positions = <15 22>;
             bindings = <&m_disp>;
             layers = <0>;
         };
         combo_60 {
             timeout-ms = <50>;
-            key-positions = <10 17>;
+            key-positions = <13 20>;
             bindings = <&m24>;
             layers = <0>;
         };
         combo_61 {
             timeout-ms = <50>;
-            key-positions = <9 11>;
+            key-positions = <10 14>;
             bindings = <&m25>;
             layers = <0>;
         };
         combo_62 {
             timeout-ms = <50>;
-            key-positions = <13 19>;
+            key-positions = <16 22>;
             bindings = <&m27>;
             layers = <0>;
         };
         combo_63 {
             timeout-ms = <50>;
-            key-positions = <9 20>;
+            key-positions = <10 25>;
             bindings = <&m60>;
             layers = <0>;
         };
         combo_64 {
             timeout-ms = <50>;
-            key-positions = <22 7 10>;
+            key-positions = <27 8 13>;
             bindings = <&m28>;
             layers = <0>;
         };
         combo_65 {
             timeout-ms = <50>;
-            key-positions = <0 9>;
+            key-positions = <1 10>;
             bindings = <&m29>;
             layers = <0>;
         };
         combo_66 {
             timeout-ms = <50>;
-            key-positions = <9 12>;
+            key-positions = <10 15>;
             bindings = <&m30>;
             layers = <0>;
         };
         combo_67 {
             timeout-ms = <50>;
-            key-positions = <10 11 12>;
+            key-positions = <13 14 15>;
             bindings = <&m111>;
             layers = <0>;
         };
         combo_68 {
             timeout-ms = <50>;
-            key-positions = <10 11 1>;
+            key-positions = <13 14 2>;
             bindings = <&m40>;
             layers = <0>;
         };
         combo_69 {
             timeout-ms = <50>;
-            key-positions = <25 26>;
+            key-positions = <30 31>;
             bindings = <&m64>;
             layers = <0>;
         };
         combo_70 {
             timeout-ms = <50>;
-            key-positions = <16 17 18 19>;
+            key-positions = <19 20 21 22>;
             bindings = <&m103>;
             layers = <0>;
         };
         combo_71 {
             timeout-ms = <50>;
-            key-positions = <12 2>;
+            key-positions = <15 3>;
             bindings = <&m34>;
             layers = <0>;
         };
         combo_72 {
             timeout-ms = <50>;
-            key-positions = <12 15>;
+            key-positions = <15 18>;
             bindings = <&m36>;
             layers = <0>;
         };
         combo_73 {
             timeout-ms = <50>;
-            key-positions = <9 1>;
+            key-positions = <10 2>;
             bindings = <&m37>;
             layers = <0>;
         };
         combo_74 {
             timeout-ms = <50>;
-            key-positions = <13 16 12>;
+            key-positions = <16 19 15>;
             bindings = <&m106>;
             layers = <0>;
         };
         combo_75 {
             timeout-ms = <50>;
-            key-positions = <17 27>;
+            key-positions = <20 32>;
             bindings = <&m114>;
             layers = <0>;
         };
         combo_76 {
             timeout-ms = <50>;
-            key-positions = <1 6>;
+            key-positions = <2 7>;
             bindings = <&m77>;
             layers = <0>;
         };
         combo_77 {
             timeout-ms = <50>;
-            key-positions = <13 14>;
+            key-positions = <16 17>;
             bindings = <&kp DEL>;
             layers = <0>;
         };
         combo_78 {
             timeout-ms = <50>;
-            key-positions = <11 16>;
+            key-positions = <14 19>;
             bindings = <&m43>;
             layers = <0>;
         };
         combo_79 {
             timeout-ms = <50>;
-            key-positions = <14 15>;
+            key-positions = <17 18>;
             bindings = <&m118>;
             layers = <0>;
         };
         combo_80 {
             timeout-ms = <50>;
-            key-positions = <3 18>;
+            key-positions = <4 21>;
             bindings = <&m_result>;
             layers = <0>;
         };
         combo_81 {
             timeout-ms = <50>;
-            key-positions = <26 12>;
+            key-positions = <31 15>;
             bindings = <&m59>;
             layers = <0>;
         };
         combo_82 {
             timeout-ms = <50>;
-            key-positions = <19 15>;
+            key-positions = <22 18>;
             bindings = <&m73>;
             layers = <0>;
         };
         combo_83 {
             timeout-ms = <50>;
-            key-positions = <26 1>;
+            key-positions = <31 2>;
             bindings = <&m68>;
             layers = <0>;
         };
         combo_84 {
             timeout-ms = <50>;
-            key-positions = <9 23>;
+            key-positions = <10 28>;
             bindings = <&m66>;
             layers = <0>;
         };
         combo_85 {
             timeout-ms = <50>;
-            key-positions = <12 14>;
+            key-positions = <15 17>;
             bindings = <&m72>;
             layers = <0>;
         };
         combo_86 {
             timeout-ms = <50>;
-            key-positions = <9 4>;
+            key-positions = <10 5>;
             bindings = <&m69>;
             layers = <0>;
         };
         combo_87 {
             timeout-ms = <50>;
-            key-positions = <19 17 18>;
+            key-positions = <22 20 21>;
             bindings = <&m94>;
             layers = <0>;
         };
         combo_88 {
             timeout-ms = <50>;
-            key-positions = <24 8 14>;
+            key-positions = <29 9 17>;
             bindings = <&m71>;
             layers = <0>;
         };
         combo_89 {
             timeout-ms = <50>;
-            key-positions = <14 19>;
+            key-positions = <17 22>;
             bindings = <&m_aleg>;
             layers = <0>;
         };
         combo_90 {
             timeout-ms = <50>;
-            key-positions = <17 14>;
+            key-positions = <20 17>;
             bindings = <&m74>;
             layers = <0>;
         };
         combo_91 {
             timeout-ms = <50>;
-            key-positions = <17 26>;
+            key-positions = <20 31>;
             bindings = <&m123>;
             layers = <0>;
         };
         combo_92 {
             timeout-ms = <50>;
-            key-positions = <12 16>;
+            key-positions = <15 19>;
             bindings = <&m81>;
             layers = <0>;
         };
         combo_93 {
             timeout-ms = <50>;
-            key-positions = <16 13 17>;
+            key-positions = <19 16 20>;
             bindings = <&m109>;
             layers = <0>;
         };
         combo_94 {
             timeout-ms = <50>;
-            key-positions = <25 11 12>;
+            key-positions = <30 14 15>;
             bindings = <&m78>;
             layers = <0>;
         };
         combo_95 {
             timeout-ms = <50>;
-            key-positions = <4 12>;
+            key-positions = <5 15>;
             bindings = <&m79>;
             layers = <0>;
         };
         combo_97 {
             timeout-ms = <50>;
-            key-positions = <4 17>;
+            key-positions = <5 20>;
             bindings = <&m41>;
             layers = <0>;
         };
         combo_98 {
             timeout-ms = <50>;
-            key-positions = <8 19>;
+            key-positions = <9 22>;
             bindings = <&m52>;
             layers = <0>;
         };
         combo_99 {
             timeout-ms = <50>;
-            key-positions = <2 4 3>;
+            key-positions = <3 5 4>;
             bindings = <&m83>;
             layers = <0>;
         };
         combo_100 {
             timeout-ms = <50>;
-            key-positions = <3 16 13>;
+            key-positions = <4 19 16>;
             bindings = <&m22>;
             layers = <0>;
         };
         combo_101 {
             timeout-ms = <50>;
-            key-positions = <2 30>;
+            key-positions = <3 36>;
             bindings = <&m20>;
             layers = <0>;
         };
         combo_102 {
             timeout-ms = <50>;
-            key-positions = <4 5>;
+            key-positions = <5 6>;
             bindings = <&m53>;
             layers = <0>;
         };
         combo_103 {
             timeout-ms = <50>;
-            key-positions = <4 30>;
+            key-positions = <5 36>;
             bindings = <&m93>;
             layers = <0>;
         };
         combo_104 {
             timeout-ms = <50>;
-            key-positions = <16 14>;
+            key-positions = <19 17>;
             bindings = <&m122>;
             layers = <0>;
         };
         combo_105 {
             timeout-ms = <50>;
-            key-positions = <12 18 17>;
+            key-positions = <15 21 20>;
             bindings = <&m_declar>;
             layers = <0>;
         };
         combo_106 {
             timeout-ms = <50>;
-            key-positions = <9 22>;
+            key-positions = <10 27>;
             bindings = <&m23>;
             layers = <0>;
         };
         combo_107 {
             timeout-ms = <50>;
-            key-positions = <16 30>;
+            key-positions = <19 36>;
             bindings = <&m97>;
             layers = <0>;
         };
         combo_108 {
             timeout-ms = <50>;
-            key-positions = <8 30>;
+            key-positions = <9 36>;
             bindings = <&m98>;
             layers = <0>;
         };
         combo_109 {
             timeout-ms = <50>;
-            key-positions = <7 30>;
+            key-positions = <8 36>;
             bindings = <&m99>;
             layers = <0>;
         };
         combo_110 {
             timeout-ms = <50>;
-            key-positions = <18 4>;
+            key-positions = <21 5>;
             bindings = <&m_limit>;
             layers = <0>;
         };
         combo_111 {
             timeout-ms = <50>;
-            key-positions = <3 17>;
+            key-positions = <4 20>;
             bindings = <&m117>;
             layers = <0>;
         };
         combo_112 {
             timeout-ms = <50>;
-            key-positions = <0 33>;
+            key-positions = <1 39>;
             bindings = <&m_real>;
             layers = <0>;
         };
         combo_113 {
             timeout-ms = <50>;
-            key-positions = <11 19>;
+            key-positions = <14 22>;
             bindings = <&m105>;
             layers = <0>;
         };
         combo_114 {
             timeout-ms = <50>;
-            key-positions = <2 35>;
+            key-positions = <3 41>;
             bindings = <&m45>;
             layers = <0>;
         };
         combo_115 {
             timeout-ms = <50>;
-            key-positions = <11 5>;
+            key-positions = <14 6>;
             bindings = <&m107>;
             layers = <0>;
         };
         combo_116 {
             timeout-ms = <50>;
-            key-positions = <8 35>;
+            key-positions = <9 41>;
             bindings = <&m108>;
             layers = <0>;
         };
         combo_117 {
             timeout-ms = <50>;
-            key-positions = <22 5>;
+            key-positions = <27 6>;
             bindings = <&m4>;
             layers = <0>;
         };
         combo_118 {
             timeout-ms = <50>;
-            key-positions = <15 17>;
+            key-positions = <18 20>;
             bindings = <&m115>;
             layers = <0>;
         };
         combo_119 {
             timeout-ms = <50>;
-            key-positions = <4 1>;
+            key-positions = <5 2>;
             bindings = <&m110>;
             layers = <0>;
         };
         combo_120 {
             timeout-ms = <50>;
-            key-positions = <24 14>;
+            key-positions = <29 17>;
             bindings = <&m85>;
             layers = <0>;
         };
         combo_121 {
             timeout-ms = <50>;
-            key-positions = <10 11 9>;
+            key-positions = <13 14 10>;
             bindings = <&m100>;
             layers = <0>;
         };
         combo_122 {
             timeout-ms = <50>;
-            key-positions = <11 30>;
+            key-positions = <14 36>;
             bindings = <&m113>;
             layers = <0>;
         };
         combo_123 {
             timeout-ms = <50>;
-            key-positions = <0 4>;
+            key-positions = <1 5>;
             bindings = <&m21>;
             layers = <0>;
         };
         combo_124 {
             timeout-ms = <50>;
-            key-positions = <17 6>;
+            key-positions = <20 7>;
             bindings = <&m95>;
             layers = <0>;
         };
         combo_125 {
             timeout-ms = <50>;
-            key-positions = <2 1>;
+            key-positions = <3 2>;
             bindings = <&m116>;
             layers = <0>;
         };
         combo_127 {
             timeout-ms = <50>;
-            key-positions = <11 7 17>;
+            key-positions = <14 8 20>;
             bindings = <&m124>;
             layers = <0>;
         };
