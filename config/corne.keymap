@@ -34,9 +34,9 @@
         hm_l: homerow_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
-            quick-tap-ms = <175>;
-            require-prior-idle-ms = <150>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <100>;
             flavor = "balanced";
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 30 31 32 33 34 35>;
             hold-trigger-on-release;
@@ -45,9 +45,9 @@
         hm_r: homerow_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
-            quick-tap-ms = <175>;
-            require-prior-idle-ms = <150>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <100>;
             flavor = "balanced";
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32 33 34 35>;
             hold-trigger-on-release;
@@ -2075,7 +2075,7 @@
         default_layer {
             bindings = <
                 &kp Q  &kp W  &kp E  &kp R  &kp T    &kp Y  &hm_r RALT U  &kp I  &kp O  &kp P
-                &lt 2 A  &hm_l LSHFT S  &hm_l LALT D  &hm_l LCTRL F  &kp G    &kp H  &hm_r LCTRL J  &hm_r LALT K  &hm_r LSHFT L  &lt 2 SEMI
+                &lt 2 A  &hm_l LSHFT S  &hm_l LALT D  &hm_l LCTRL F  &kp G    &kp H  &hm_r LCTRL J  &kp K  &hm_r LSHFT L  &lt 2 SEMI
                 &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH
                           &lt 4 EQUAL  &lt 1 SPACE  &lt 3 INT1    &lt 3 RET  &lt 1 SPACE  &lt 4 MINUS
             >;
