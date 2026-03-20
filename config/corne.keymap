@@ -1513,9 +1513,10 @@
             bindings = <&m125>;
         };
         combo_14 {
-            timeout-ms = <65>;
+            timeout-ms = <40>;
             key-positions = <34 25>;
             bindings = <&m7>;
+            require-prior-idle-ms = <150>;
         };
         combo_15 {
             timeout-ms = <65>;
@@ -1573,9 +1574,10 @@
             bindings = <&kp KP_PLUS>;
         };
         combo_26 {
-            timeout-ms = <65>;
+            timeout-ms = <40>;
             key-positions = <25 17>;
             bindings = <&m49>;
+            require-prior-idle-ms = <150>;
         };
         combo_27 {
             timeout-ms = <65>;
@@ -1628,9 +1630,10 @@
             bindings = <&m12>;
         };
         combo_37 {
-            timeout-ms = <65>;
+            timeout-ms = <40>;
             key-positions = <15 25>;
             bindings = <&m13>;
+            require-prior-idle-ms = <150>;
         };
         combo_38 {
             timeout-ms = <65>;
@@ -1658,9 +1661,10 @@
             bindings = <&m88>;
         };
         combo_43 {
-            timeout-ms = <90>;
+            timeout-ms = <80>;
             key-positions = <2 25 12>;
             bindings = <&m70>;
+            require-prior-idle-ms = <150>;
         };
         combo_44 {
             timeout-ms = <65>;
@@ -1788,9 +1792,10 @@
             bindings = <&m40>;
         };
         combo_69 {
-            timeout-ms = <65>;
+            timeout-ms = <40>;
             key-positions = <25 26>;
             bindings = <&m64>;
+            require-prior-idle-ms = <150>;
         };
         combo_70 {
             timeout-ms = <100>;
@@ -1913,9 +1918,10 @@
             bindings = <&m109>;
         };
         combo_94 {
-            timeout-ms = <90>;
+            timeout-ms = <80>;
             key-positions = <25 11 12>;
             bindings = <&m78>;
+            require-prior-idle-ms = <150>;
         };
         combo_95 {
             timeout-ms = <65>;
