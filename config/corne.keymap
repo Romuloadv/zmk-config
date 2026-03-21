@@ -1886,11 +1886,11 @@
         combo_89 {
             timeout-ms = <50>;
             key-positions = <14 19>;
-            bindings = <&m_limit>;
+            bindings = <&m_aleg>;
         };
         combo_90 {
             timeout-ms = <50>;
-            key-positions = <17 14>;
+            key-positions = <11 12>;
             bindings = <&m74>;
         };
         combo_91 {
@@ -1961,7 +1961,7 @@
         combo_104 {
             timeout-ms = <50>;
             key-positions = <12 18 17>;
-            bindings = <&m_real>;
+            bindings = <&m_declar>;
         };
         combo_105 {
             timeout-ms = <50>;
@@ -1986,7 +1986,7 @@
         combo_109 {
             timeout-ms = <50>;
             key-positions = <18 4>;
-            bindings = <&m_declar>;
+            bindings = <&m_limit>;
         };
         combo_110 {
             timeout-ms = <50>;
