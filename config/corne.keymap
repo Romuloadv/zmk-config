@@ -1993,11 +1993,6 @@
             key-positions = <3 17>;
             bindings = <&m117>;
         };
-        combo_111 {
-            timeout-ms = <50>;
-            key-positions = <0 33>;
-            bindings = <&m_aleg>;
-        };
         combo_112 {
             timeout-ms = <50>;
             key-positions = <11 19>;
@@ -2077,7 +2072,7 @@
                 &kp Q  &kp W  &kp E  &kp R  &kp T    &kp Y  &hm_r RALT U  &kp I  &kp O  &kp P
                 &lt 2 A  &hm_l LSHFT S  &hm_l LALT D  &hm_l LCTRL F  &kp G    &kp H  &hm_r LCTRL J  &hm_r LALT K  &hm_r LSHFT L  &lt 2 SEMI
                 &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH
-                          &lt 4 EQUAL  &lt 1 SPACE  &lt 3 INT1    &lt 3 RET  &lt 1 SPACE  &lt 4 MINUS
+                          &lt 4 EQUAL  &lt 1 SPACE  &kp INT1    &kp RET  &lt 1 SPACE  &lt 4 MINUS
             >;
         };
 
