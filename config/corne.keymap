@@ -1479,7 +1479,7 @@
             bindings = <&m65>;
         };
         combo_8 {
-            timeout-ms = <65>;
+            timeout-ms = <100>;
             key-positions = <33 34>;
             bindings = <&kp LGUI>;
         };
@@ -1890,7 +1890,7 @@
         };
         combo_90 {
             timeout-ms = <50>;
-            key-positions = <11 12>;
+            key-positions = <14 17>;
             bindings = <&m74>;
         };
         combo_91 {
