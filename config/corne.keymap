@@ -2098,12 +2098,9 @@
             layers = <0 1 2 3 4 5>;
             bindings = <&m93>;
         };
-        combo_103 {
-            timeout-ms = <65>;
-            key-positions = <16 14>;
-            layers = <0 1 2 3 4 5>;
-            bindings = <&m122>;
-        };
+        // combo_103 REMOVIDO 04/09/2026: J+G disparava m122 ("justica gratuita")
+        // e colidia com a digitacao no nvim. Macro m122 continua DEFINIDO, sem combo.
+        // Mesma remocao feita no Eyelash Sofle no mesmo dia.
         combo_104 {
             timeout-ms = <65>;
             key-positions = <12 18 17>;
