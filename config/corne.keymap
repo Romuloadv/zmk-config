@@ -11,7 +11,10 @@
  *   2 - Raise (Symbols + Navigation)
  *   3 - Adjust (empty/reserved)
  *   4 - Macros (text macros on keys)
- *   5 - Bluetooth (transparent, add BT bindings)
+ *   5 - Bluetooth: segurar Espaco, DEPOIS segurar A (&mo 5 na Lower).
+ *       Mao direita: J=perfil 0 (PC), K=perfil 1 (celular), L=perfil 2, N=limpa perfil atual.
+ *       Esquerda: Q..T=perfis 0-4, V=limpa atual, B=limpa todos.
+ *       (Espaco+A pelo conditional 1+2 nunca funcionou: A na Lower era &none, Espaco na Raise e RBKT.)
  *
  * Positions (Corne 3x5):
  *   0  1  2  3  4     5  6  7  8  9
@@ -2281,7 +2284,7 @@
         lower_layer {
             bindings = <
                 &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-                &none  &none  &kp NON_US_BSLH  &mkp LCLK  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LC(LS(V))
+                &mo 5  &none  &kp NON_US_BSLH  &mkp LCLK  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LC(LS(V))
                 &kp C_VOL_UP  &kp C_VOL_DN  &none  &kp PSCRN  &msc SCRL_DOWN    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none
                           &none  &none  &mkp LCLK    &mkp MCLK  &mkp RCLK  &tog 1
             >;
@@ -2317,8 +2320,8 @@
         bt_layer {
             bindings = <
                 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &bt BT_CLR  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
+                &trans  &trans  &trans  &bt BT_CLR  &bt BT_CLR_ALL    &bt BT_CLR  &trans  &trans  &trans  &trans
                           &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
