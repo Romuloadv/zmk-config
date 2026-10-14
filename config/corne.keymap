@@ -14,7 +14,8 @@
  *   5 - Bluetooth: segurar Espaco, DEPOIS segurar A (&mo 5 na Lower).
  *       Mao direita: J=perfil 0 (PC), K=perfil 1 (celular), L=perfil 2, N=limpa perfil atual.
  *       Esquerda: Q..T=perfis 0-4, V=limpa atual, B=limpa todos.
- *       (Espaco+A pelo conditional 1+2 nunca funcionou: A na Lower era &none, Espaco na Raise e RBKT.)
+ *       (Espaco+A pelo conditional 1+2 nunca funcionou: A na Lower era &none, Espaco na Raise e RBKT;
+ *        e o conditional desligava a camada 5 ativada por &mo — por isso foi removido.)
  *
  * Positions (Corne 3x5):
  *   0  1  2  3  4     5  6  7  8  9
@@ -2293,14 +2294,8 @@
             layers = <0>;
         };
     };
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_bt {
-            if-layers = <1 2>;
-            then-layer = <5>;
-        };
-    };
-
+    // Sem conditional_layers (removido 13/10/2026): o tri_bt (1+2 -> 5) DESLIGAVA a
+    // camada 5 sempre que 1 e 2 não estavam juntas — anulava o &mo 5 da Lower.
     keymap {
         compatible = "zmk,keymap";
 
