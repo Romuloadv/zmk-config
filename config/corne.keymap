@@ -11,11 +11,9 @@
  *   2 - Raise (Symbols + Navigation)
  *   3 - Adjust (empty/reserved)
  *   4 - Macros (text macros on keys)
- *   5 - Bluetooth: segurar Espaco, DEPOIS segurar A (&mo 5 na Lower).
- *       Mao direita: J=perfil 0 (PC), K=perfil 1 (celular), L=perfil 2, N=limpa perfil atual.
- *       Esquerda: Q..T=perfis 0-4, V=limpa atual, B=limpa todos.
- *       (Espaco+A pelo conditional 1+2 nunca funcionou: A na Lower era &none, Espaco na Raise e RBKT;
- *        e o conditional desligava a camada 5 ativada por &mo — por isso foi removido.)
+ *   5 - Bluetooth: SEGURAR Enter (&lt 5 RET, polegar interno direito) e tocar
+ *       Q=PC  W=celular  E=Pi4  R=Orange Pi  T=livre (perfis 0-4; mesmas teclas do 1-5
+ *       na Lower). V = limpa o perfil atual. (13/10/2026 — substituiu Espaco->A->tecla.)
  *
  * Positions (Corne 3x5):
  *   0  1  2  3  4     5  6  7  8  9
@@ -2304,14 +2302,14 @@
                 &kp Q  &kp W  &kp E  &kp R  &kp T    &kp Y  &hm_r RALT U  &kp I  &kp O  &kp P
                 &lt 2 A  &hm_l LSHFT S  &hm_l LALT D  &hm_l LCTRL F  &kp G    &kp H  &hm_r LCTRL J  &hm_r LALT K  &hm_r LSHFT L  &lt 2 SEMI
                 &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH
-                          &lt 4 EQUAL  &lt 1 SPACE  &kp INT1    &kp RET  &lt 1 SPACE  &lt 4 MINUS
+                          &lt 4 EQUAL  &lt 1 SPACE  &kp INT1    &lt 5 RET  &lt 1 SPACE  &lt 4 MINUS
             >;
         };
 
         lower_layer {
             bindings = <
                 &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-                &mo 5  &none  &kp NON_US_BSLH  &mkp LCLK  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LC(LS(V))
+                &none  &none  &kp NON_US_BSLH  &mkp LCLK  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LC(LS(V))
                 &kp C_VOL_UP  &kp C_VOL_DN  &none  &kp PSCRN  &msc SCRL_DOWN    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none
                           &none  &none  &mkp LCLK    &mkp MCLK  &mkp RCLK  &tog 1
             >;
@@ -2346,10 +2344,10 @@
 
         bt_layer {
             bindings = <
-                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
-                &trans  &trans  &trans  &bt BT_CLR  &bt BT_CLR_ALL    &bt BT_CLR  &trans  &trans  &trans  &trans
-                          &trans  &trans  &trans    &trans  &trans  &trans
+                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none  &none  &none  &none  &none
+                &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+                &none  &none  &none  &bt BT_CLR  &none    &none  &none  &none  &none  &none
+                          &none  &none  &none    &trans  &none  &none
             >;
         };
 

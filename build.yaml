@@ -1,7 +1,14 @@
 # ZMK Build Matrix - Corne Mini 3x5 Wireless
+# 13/10/2026: a DIREITA virou mestre (central) — a tela esquerda morreu no conserto e o
+# indicador de Bluetooth só aparece na tela da mestre. Cabo USB vai na direita.
+# settings_reset: gravar nas DUAS metades antes do firmware sempre que os papéis mudarem.
 ---
 include:
   - board: nice_nano//zmk
     shield: corne_left
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano//zmk
     shield: corne_right
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+  - board: nice_nano//zmk
+    shield: settings_reset
