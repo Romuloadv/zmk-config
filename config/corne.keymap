@@ -26,6 +26,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/hid_usage.h>
 
 / {
     chosen {
@@ -33,6 +34,19 @@
     };
 
     behaviors {
+        // Liga/desliga a camada JOGO sem inverter (usados pelo hid_listeners abaixo).
+        tog_on: tog_on {
+            compatible = "zmk,behavior-toggle-layer";
+            #binding-cells = <1>;
+            display-name = "Layer On";
+            toggle-mode = "on";
+        };
+        tog_off: tog_off {
+            compatible = "zmk,behavior-toggle-layer";
+            #binding-cells = <1>;
+            display-name = "Layer Off";
+            toggle-mode = "off";
+        };
         hm_l: homerow_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -2319,6 +2333,17 @@
     };
     // Sem conditional_layers (removido 13/10/2026): o tri_bt (1+2 -> 5) DESLIGAVA a
     // camada 5 sempre que 1 e 2 não estavam juntas — anulava o &mo 5 da Lower.
+    // LED Scroll Lock do host = canal host->teclado (módulo ssbb/zmk-listeners, só no central =
+    // direita). Borda de subida liga a camada JOGO (6); de descida, desliga. O combo INT1+MINUS
+    // (&tog 6) segue valendo. Host: advogado_hacker/tools/teclado_camada.sh jogo|base.
+    hid_listeners {
+        compatible = "zmk,hid-listeners";
+        scroll_lock_jogo {
+            indicator = <HID_USAGE_LED_SCROLL_LOCK>;
+            bindings = <&tog_on 6 &tog_off 6>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

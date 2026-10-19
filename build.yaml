@@ -9,6 +9,6 @@ include:
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano//zmk
     shield: corne_right
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DCONFIG_ZMK_HID_INDICATORS=y
   - board: nice_nano//zmk
     shield: settings_reset

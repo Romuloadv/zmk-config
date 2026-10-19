@@ -2,10 +2,17 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: ssbb
+      url-base: https://github.com/ssbb
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    # LED Scroll Lock do host -> liga/desliga camada JOGO (hid_listeners no keymap).
+    # Mesmo commit fixado no Sofle.
+    - name: zmk-listeners
+      remote: ssbb
+      revision: 7f9c5c33418589bb563150855c5de282bb3e1f5b
   self:
     path: config
