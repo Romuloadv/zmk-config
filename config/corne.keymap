@@ -2291,6 +2291,22 @@
             bindings = <&sk_mai LSHFT>;
             layers = <0>;
         };
+
+        // Colchetes no dedão, igual ao Sofle (19/10/2026). Esquerda: SPACE + = ;
+        // direita: SPACE + - . ABNT2: [ = RBKT, ] = BSLH.
+        combo_colch_esq {
+            timeout-ms = <65>;
+            key-positions = <30 31>;
+            bindings = <&kp RBKT>;
+            layers = <0 1 2 3 4 5>;
+        };
+
+        combo_colch_dir {
+            timeout-ms = <65>;
+            key-positions = <34 35>;
+            bindings = <&kp BSLH>;
+            layers = <0 1 2 3 4 5>;
+        };
     };
     // Sem conditional_layers (removido 13/10/2026): o tri_bt (1+2 -> 5) DESLIGAVA a
     // camada 5 sempre que 1 e 2 não estavam juntas — anulava o &mo 5 da Lower.
