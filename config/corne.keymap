@@ -2307,6 +2307,15 @@
             bindings = <&kp BSLH>;
             layers = <0 1 2 3 4 5>;
         };
+
+        // Liga/desliga a camada JOGO (6): polegar interno esquerdo + externo direito
+        // (INT1 + MINUS). layers <0 6> para valer dos dois lados do toggle.
+        combo_jogo {
+            timeout-ms = <65>;
+            key-positions = <32 35>;
+            bindings = <&tog 6>;
+            layers = <0 6>;
+        };
     };
     // Sem conditional_layers (removido 13/10/2026): o tri_bt (1+2 -> 5) DESLIGAVA a
     // camada 5 sempre que 1 e 2 não estavam juntas — anulava o &mo 5 da Lower.
@@ -2364,6 +2373,18 @@
                 &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
                 &none  &none  &none  &bt BT_CLR  &none    &none  &none  &none  &none  &none
                           &none  &none  &none    &trans  &none  &none
+            >;
+        };
+
+        // Camada JOGO (19/10/2026): letras em &kp puro (jogo ignora home-row mod). Os combos
+        // das camadas 0-5 não disparam aqui. Números = segurar o polegar direito externo (Lower).
+        game_layer {
+            display-name = "JOGO";
+            bindings = <
+                &kp Q  &kp W  &kp E  &kp R  &kp T    &kp Y  &kp U  &kp I  &kp O  &kp P
+                &kp A  &kp S  &kp D  &kp F  &kp G    &kp H  &kp J  &kp K  &kp L  &kp SEMI
+                &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH
+                          &kp LSHFT  &kp SPACE  &kp LCTRL    &kp RET  &kp ESC  &mo 1
             >;
         };
 
