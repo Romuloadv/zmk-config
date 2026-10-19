@@ -2345,6 +2345,14 @@
             bindings = <&kp LALT>;
             layers = <6>;
         };
+
+        // Enter na camada JOGO: Y+P.
+        combo_jogo_enter {
+            timeout-ms = <50>;
+            key-positions = <5 9>;
+            bindings = <&kp RET>;
+            layers = <6>;
+        };
     };
     // Sem conditional_layers (removido 13/10/2026): o tri_bt (1+2 -> 5) DESLIGAVA a
     // camada 5 sempre que 1 e 2 não estavam juntas — anulava o &mo 5 da Lower.
