@@ -83,6 +83,24 @@
     };
 
     macros {
+        m_acirc: m_acirc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <20>;
+            tap-ms = <20>;
+            bindings
+                = <&macro_tap &kp LS(SQT) &kp A>
+                ;
+        };
+        m_dagudo: m_dagudo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <20>;
+            tap-ms = <20>;
+            bindings
+                = <&macro_tap &kp D &kp LBKT &kp A>
+                ;
+        };
         // Espaço + próxima letra maiúscula (combo dos dois Espaços).
         m_espmai: m_espmai {
             compatible = "zmk,behavior-macro";
@@ -1530,7 +1548,7 @@
             bindings = <&kp ESC>;
         };
         combo_2 {
-            timeout-ms = <65>;
+            timeout-ms = <50>;
             key-positions = <10 19>;
             layers = <0 1 2 3 4 5>;
             bindings = <&m5>;
@@ -1566,7 +1584,7 @@
             bindings = <&m65>;
         };
         combo_8 {
-            timeout-ms = <100>;
+            timeout-ms = <65>;
             key-positions = <33 34>;
             layers = <0 1 2 3 4 5>;
             bindings = <&kp LGUI>;
@@ -1638,19 +1656,19 @@
             bindings = <&m17>;
         };
         combo_20 {
-            timeout-ms = <65>;
+            timeout-ms = <50>;
             key-positions = <13 16>;
             layers = <0 1 2 3 4 5>;
             bindings = <&m0>;
         };
         combo_21 {
-            timeout-ms = <65>;
+            timeout-ms = <50>;
             key-positions = <12 17>;
             layers = <0 1 2 3 4 5>;
             bindings = <&m1>;
         };
         combo_22 {
-            timeout-ms = <65>;
+            timeout-ms = <50>;
             key-positions = <11 18>;
             layers = <0 1 2 3 4 5>;
             bindings = <&m2>;
@@ -2339,6 +2357,18 @@
             layers = <6>;
         };
 
+        combo_acirc {
+            timeout-ms = <65>;
+            key-positions = <10 35>;
+            layers = <0 1 2 3 4 5>;
+            bindings = <&m_acirc>;
+        };
+        combo_dagudo {
+            timeout-ms = <65>;
+            key-positions = <12 35>;
+            layers = <0 1 2 3 4 5>;
+            bindings = <&m_dagudo>;
+        };
         combo_jogo_alt_dir {
             timeout-ms = <50>;
             key-positions = <26 27>;
