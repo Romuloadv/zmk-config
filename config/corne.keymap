@@ -2353,23 +2353,24 @@
 
         // Símbolos frequentes em combo (28/10/2026, iguais ao Sofle) — pares quase
         // ausentes no corpus (por milhão: ,; 0,3 · zx 0,4 · zc 4,3 · qw 2,4).
+        // Os 3 primeiros valem também na JOGO (6); Q+W não (atrasaria o W de andar).
         combo_dois_pontos {
             timeout-ms = <50>;
             key-positions = <27 29>;
             bindings = <&kp LS(FSLH)>;
-            layers = <0 1 2 3 4 5>;
+            layers = <0 1 2 3 4 5 6>;
         };
         combo_aspas_duplas {
             timeout-ms = <50>;
             key-positions = <20 21>;
             bindings = <&kp LS(GRAVE)>;
-            layers = <0 1 2 3 4 5>;
+            layers = <0 1 2 3 4 5 6>;
         };
         combo_crase {
             timeout-ms = <50>;
             key-positions = <20 22>;
             bindings = <&m_crase>;
-            layers = <0 1 2 3 4 5>;
+            layers = <0 1 2 3 4 5 6>;
         };
         combo_aspas_simples {
             timeout-ms = <50>;
