@@ -83,6 +83,17 @@
     };
 
     macros {
+        // Crase LITERAL (28/10/2026, igual ao Sofle): tecla morta + espaço = ` na
+        // hora, sem esperar a próxima tecla (senão `agravo` vira "àgravo").
+        m_crase: m_crase {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <20>;
+            tap-ms = <20>;
+            bindings
+                = <&macro_tap &kp LS(LBKT) &kp SPACE>
+                ;
+        };
         m_acirc: m_acirc {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -2337,6 +2348,33 @@
             timeout-ms = <65>;
             key-positions = <34 35>;
             bindings = <&kp BSLH>;
+            layers = <0 1 2 3 4 5>;
+        };
+
+        // Símbolos frequentes em combo (28/10/2026, iguais ao Sofle) — pares quase
+        // ausentes no corpus (por milhão: ,; 0,3 · zx 0,4 · zc 4,3 · qw 2,4).
+        combo_dois_pontos {
+            timeout-ms = <50>;
+            key-positions = <27 29>;
+            bindings = <&kp LS(FSLH)>;
+            layers = <0 1 2 3 4 5>;
+        };
+        combo_aspas_duplas {
+            timeout-ms = <50>;
+            key-positions = <20 21>;
+            bindings = <&kp LS(GRAVE)>;
+            layers = <0 1 2 3 4 5>;
+        };
+        combo_crase {
+            timeout-ms = <50>;
+            key-positions = <20 22>;
+            bindings = <&m_crase>;
+            layers = <0 1 2 3 4 5>;
+        };
+        combo_aspas_simples {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp GRAVE>;
             layers = <0 1 2 3 4 5>;
         };
 
